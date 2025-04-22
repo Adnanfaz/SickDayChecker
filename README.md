@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 🤒 Sick Day Checker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, user-friendly mobile app built with **React Native**, designed to help users quickly log symptoms, view results, and track their health history. Whether you're under the weather or just monitoring your well-being, this app provides a fast and intuitive experience.
 
-## Get started
+![Platform](https://img.shields.io/badge/platform-ios%20%7C%20android-blue?logo=react)
+![Framework](https://img.shields.io/badge/framework-react--native-61DAFB?logo=react)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 🏠 **Home Screen** – Entry point with an overview of your wellness journey
+- ✅ **Symptoms Checker** – Log your symptoms and get instant feedback
+- 📊 **Results** – Personalized suggestions based on inputs
+- 📅 **History** – View your previously entered symptoms and outcomes
+- ⚙️ **Settings** – Customize app behavior and preferences
+- 💡 **Custom Headers** – Sleek, branded UI with navigation built-in
+- 🌗 **Dark Mode Ready** – Responsive to system color scheme
+- 🎨 Powered by **React Native Paper** for beautiful UI components
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Tool | Description |
+|------|-------------|
+| [React Native](https://reactnative.dev/) | Core mobile app framework |
+| [React Navigation](https://reactnavigation.org/) | Handles in-app navigation |
+| [React Native Paper](https://callstack.github.io/react-native-paper/) | Material Design components |
+| [Expo](https://expo.dev/) | Development and testing framework |
+| [Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context) | Proper layout across all devices |
+| [Ionicons](https://ionic.io/ionicons) | Clean and modern icons |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/your-username/sick-day-checker.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+cd sick-day-checker
 
-## Learn more
+npm install
+# or
+yarn install
 
-To learn more about developing your project with Expo, look at the following resources:
+npx expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+.
+├── App.js                # Entry point
+├── /src
+│   ├── HomeScreen.js
+│   ├── SymptomsScreen.js
+│   ├── ResultsScreen.js
+│   ├── HistoryScreen.js
+│   └── SettingsScreen.js
+├── /context
+│   └── HealthContext.js  # Global state management
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
