@@ -33,32 +33,4 @@ A modern, user-friendly mobile app built with **React Native**, designed to help
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/sick-day-checker.git
-
-cd sick-day-checker
-
-npm install
-# or
-yarn install
-
-npx expo start
-
-
-.
-├── App.js                # Entry point
-├── /src
-│   ├── HomeScreen.js
-│   ├── SymptomsScreen.js
-│   ├── ResultsScreen.js
-│   ├── HistoryScreen.js
-│   └── SettingsScreen.js
-├── /context
-│   └── HealthContext.js  # Global state management
-
-
-
+## 🚀 Get Started
